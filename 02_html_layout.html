@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+
+  <!-- 1. div : 레이아웃 요소 -->
+  <div style="width:500px; height:200px; background-color:red;"></div>
+  <p>test</p>
+  <div>div2</div>
+  <div>div3</div>
+  <!-- 2. table : 로우와 칼럼이 있는 테이블 모양을 나타낼때 사용하는 요소 -->
+  <!-- table>caption{테이블}+thead>tr>th{dss$}*2^^tbody>tr>th{dss$@3}*2 -->
+  <table>
+    <caption>테이블</caption>
+    <thead>
+      <tr>
+        <th>dss1</th>
+        <th>dss2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>dss3</th>
+        <th>dss4</th>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 3. ul, li : 리스트 요소 -->
+  <!-- ul>li{ul_li$}*3 -->
+  <ul>
+    <li>ul_li1</li>
+    <li>ul_li2</li>
+    <li>ul_li3</li>
+  </ul>
+
+  <!-- 4. a : 링크 요소 -->
+  <a href = "http://google.com" target="_blank">Google</a>
+  <a href = "01_html_basic.html">01_html_basic</a>
+
+  <!-- 5. image : 이미지  -->
+  <img style="width:200px"; src="http://cdn.www.fastcampus.co.kr/wp-content/uploads/2017/11/fastcampus_logo_positive-1.png" alt="패스트캠퍼스">
+
+  <!-- 6. iframe : 외부 url 링크 페이지를 보여주기 위한 요소 -->
+  <br>
+  <iframe src="file:///C:/fc_ds/web_practice/01_html_basic.html" width="400" height="400" frameborder="0"></iframe>
+
+  <!-- 7. 입력 : input (text, password, radio, checkbox) -->
+  <input type="text" name="" value="" placeholder="이메일"><br>
+  <input type="password" name="" value="" placeholder="패스워드"><br>
+
+  <input type="radio" name="radio1" value="">라디오1</input>
+  <input type="radio" name="radio1" value="">라디오2</input><br>
+  <input type="radio" name="radio2" value="">라디오3</input>
+  <input type="radio" name="radio2" value="">라디오4</input>
+  <input type="radio" name="radio2" value="">라디오5</input><br>
+
+  <input type="checkbox" name="" value="">체크박스1</input>
+  <input type="checkbox" name="" value="">체크박스2</input>
+
+  <!-- 8. textarea : 여러줄을 입력받는 요소  -->
+  <textarea name="name" rows="8" cols="80" style="resize:none;"></textarea>
+
+  <!-- 9. select, option : 옵션선택할수 있는 드랍다운 요소  -->
+  <!-- select>option[value=$]{option $}*3 -->
+  <select name="" id="">
+    <option value="1">option 1</option>
+    <option value="2">option 2</option>
+    <option value="3">option 3</option>
+  </select>
+
+  <!-- 10. button : 버튼을 나타내는 요소  -->
+  <button type="button" name="button" onclick="javascript:(alert('dss'))">Click</button>
+  <!-- <button type="button" name="button" onclick="javascript:(location.href('https://www.naver.com'))">naver</button> -->
+
+
+
+
+</body>
+</html>
