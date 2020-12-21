@@ -1,2 +1,2 @@
-# web_practice
+# web-practice
 aware web
